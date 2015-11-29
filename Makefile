@@ -1,0 +1,4 @@
+COMPONENT=SmacAppC
+PFLAGS += -I$(TOSDIR)/lib/printf
+PFLAGS += -DNEW_PRINTF_SEMANTICS
+include $(MAKERULES)
